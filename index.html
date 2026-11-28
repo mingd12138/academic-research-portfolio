@@ -1,60 +1,126 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mingdi Sun's academic research portfolio: completed dissertations in NLP and applied statistical evaluation.">
   <title>Mingdi Sun | Academic Research Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
-      margin: 50px auto;
-      padding: 0 24px;
-      line-height: 1.7;
-      color: #263238;
-    }
-    h1 { margin-bottom: 8px; }
-    .subtitle { color: #667085; }
-    .project {
-      border: 1px solid #e0e4e8;
-      border-radius: 10px;
-      padding: 24px;
-      margin-top: 26px;
-    }
-    a { color: #1666b1; }
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: #263238; background: #f7f8fa; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; font-size: 16px; line-height: 1.75; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+    header { background: #fff; border-bottom: 1px solid #e5e8ee; padding: 44px 0 26px; }
+    h1 { margin: 0 0 4px; font-size: clamp(2rem, 5vw, 2.8rem); letter-spacing: -.035em; line-height: 1.2; }
+    .subtitle { margin: 0; color: #44576b; font-weight: 600; }
+    .tagline { color: #637181; margin: 8px 0 22px; }
+    nav { display: flex; gap: 12px; flex-wrap: wrap; }
+    nav a { border: 1px solid #d8e0e8; background: #fafbfc; border-radius: 8px; padding: 7px 13px; color: #244e75; text-decoration: none; font-size: 14px; }
+    nav a:hover,nav a:focus { background: #edf4fa; }
+    main { padding: 28px 0 55px; }
+    section { scroll-margin-top: 18px; background: #fff; padding: clamp(20px,4vw,38px); margin-bottom: 24px; border: 1px solid #e5e8ee; border-radius: 12px; box-shadow: 0 3px 14px rgba(33,55,75,.035); }
+    h2 { font-size: 1.65rem; line-height: 1.3; margin: 0 0 20px; letter-spacing: -.02em; }
+    h3 { margin: 26px 0 8px; font-size: 1.15rem; line-height: 1.4; }
+    h4 { margin: 20px 0 6px; }
+    p { margin: 10px 0 14px; }
+    .detail { margin: 2px 0; }
+    ul { margin: 10px 0 20px; padding-left: 24px; }
+    li { margin: 7px 0; }
+    a { color: #1763a5; overflow-wrap: anywhere; }
+    a:hover { color: #0f446f; }
+    .table-scroll { overflow-x: auto; margin: 14px 0 20px; }
+    table { width: 100%; border-collapse: collapse; min-width: 650px; font-size: .93rem; line-height: 1.55; }
+    th,td { text-align: left; padding: 11px 12px; border-bottom: 1px solid #e6eaf0; vertical-align: top; }
+    th { background: #f1f5f9; }
+    .section-intro { color: #607082; font-size: 14px; margin-top: -10px; margin-bottom: 18px; }
+    .action { display: inline-block; padding: 9px 15px; margin: 0 12px 12px 0; border-radius: 8px; background: #1763a5; color: white; font-weight: 600; text-decoration: none; }
+    .action:hover { color: white; background: #114e82; }
+    .action.secondary { background: #eef4f9; color: #174d7c; }
+    footer { padding: 0 0 32px; color: #69798a; font-size: 14px; }
+    @media (max-width: 650px) { header { padding-top: 30px; } table { min-width: 620px; } }
   </style>
 </head>
 <body>
-  <h1>Mingdi Sun</h1>
-  <p class="subtitle"><strong>Academic Research Portfolio</strong></p>
-  <p class="subtitle">
-    Research in Natural Language Processing
-    and Applied Statistical Evaluation
-  </p>
-
-  <div class="project">
-    <h2>02 | MSc Dissertation</h2>
-    <p>Durham University, 2024</p>
-    <p>
-      NLP, sentiment analysis, topic modelling,
-      and emotion classification.
-    </p>
-    <a href="02-msc-dissertation/Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf">
-      Read MSc Dissertation (PDF)
-    </a>
+<header>
+  <div class="container">
+    <h1>Mingdi Sun</h1>
+    <p class="subtitle">Academic Research Portfolio</p>
+    <p class="tagline">Natural Language Processing · Applied Statistical Evaluation</p>
+    <nav aria-label="Portfolio sections">
+      <a href="#overview">01 · Overview</a>
+      <a href="#msc">02 · MSc Dissertation</a>
+      <a href="#bsc">03 · BSc Dissertation</a>
+    </nav>
   </div>
-
-  <div class="project">
-    <h2>03 | BSc Dissertation</h2>
-    <p>Shenzhen University, 2021</p>
-    <p>
-      User experience quality measurement,
-      questionnaire research, and factor analysis.
-    </p>
-    <a href="03-bsc-dissertation/Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf">
-      Read BSc Dissertation (PDF)
-    </a>
-  </div>
+</header>
+<main class="container">
+  <section id="overview">
+    <h2>01 | Academic Research Portfolio</h2>
+<p>This repository presents two completed degree dissertations in <strong>natural language processing</strong> and <strong>applied statistical evaluation</strong>. They reflect my experience with research design, data preparation, quantitative analysis, model comparison, and critically interpreting results and limitations.</p>
+<h3>Research projects</h3>
+<p><strong>Navigation:</strong> 01 · Repository overview (this page) → 02 · MSc dissertation → 03 · BSc dissertation.</p>
+<div class="table-scroll"><table><thead><tr><th>Project</th><th>Institution</th><th>Research focus</th><th>Dissertation</th><th>Research overview</th></tr></thead><tbody><tr><td><strong>MSc dissertation (2024)</strong>: <em>Linguistic Style and Sentiment Analysis of Libertarianism in Cyberspace at WIRED Magazine Based on Natural Language Processing</em></td><td>Durham University</td><td>NLP, sentiment and emotion analysis, topic modelling, text classification</td><td><a href="02-msc-dissertation/Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf">Full PDF</a></td><td><a href="#msc">MSc README</a></td></tr><tr><td><strong>BSc dissertation (2021)</strong>: <em>Research on a user experience quality model based on statistical analysis</em></td><td>Shenzhen University</td><td>User-experience quality measurement, questionnaire-based evaluation, factor analysis</td><td><a href="03-bsc-dissertation/Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf">Full PDF</a></td><td><a href="#bsc">BSc README</a></td></tr></tbody></table></div>
+<h3>How to navigate this repository</h3>
+<ul><li>To understand the <strong>research questions, methods, findings and limitations</strong>, start with the individual project README.</li><li>To read the <strong>original submitted academic work</strong>, open the linked PDFs above.</li><li>The PDF for each dissertation is stored alongside its own README in a numbered project folder: <strong>02 · MSc</strong> and <strong>03 · BSc</strong>.</li></ul>
+<h3>Research experience represented</h3>
+<p><strong>Natural language processing:</strong> text selection and preprocessing, linguistic analysis, topic modelling (LDA), VADER and TextBlob sentiment analysis, and comparison of machine-learning/deep-learning emotion-classification approaches.</p>
+<p><strong>Quantitative user-experience evaluation:</strong> questionnaire design, reliability assessment, exploratory factor analysis, hierarchical indicator-based evaluation, and interpretation of subjective ratings.</p>
+<p><strong>Research judgement:</strong> awareness of sampling and label-design assumptions, differences between training and target data, and limits on conclusions supported by model outputs.</p>
+<h3>Scope and provenance</h3>
+<p>These documents are <strong>degree dissertations</strong>. Code excerpts and methodology details appear within the dissertation PDFs.</p>
+  </section>
+  <section id="msc">
+    <p class="section-intro">Research summary and dissertation access</p>
+    <h2>02 | MSc Dissertation — Linguistic Style, Sentiment and NLP in WIRED</h2>
+<p class="detail"><strong>Full dissertation:</strong> <a href="02-msc-dissertation/Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf">Read the original PDF</a></p>
+<p class="detail"><strong>Institution:</strong> Durham University</p>
+<p class="detail"><strong>Degree:</strong> Master of Data Science</p>
+<p class="detail"><strong>Submission:</strong> September 2024</p>
+<p><strong>Research type:</strong> Completed MSc dissertation</p>
+<h3>Research focus</h3>
+<p><em>Linguistic Style and Sentiment Analysis of Libertarianism in Cyberspace at WIRED Magazine Based on Natural Language Processing</em> examines how themes, linguistic characteristics and sentiment associated with libertarianism in cyberspace appear in WIRED magazine articles, including variation across topics and time.</p>
+<p>The project combines exploratory linguistic analysis, topic modelling, lexicon-based sentiment analysis and experiments with emotion-classification methods.</p>
+<h3>Data and analysis</h3>
+<ul><li>Gathered and consolidated archived WIRED article records sourced through ProQuest, with material covering approximately 2008–2024.</li><li>Applied keyword screening to identify <strong>2,466 potentially relevant records</strong> from a larger working corpus of approximately 4,000 records.</li><li>Prepared text for NLP analysis, including cleaning and preprocessing.</li><li>Examined linguistic characteristics and thematic structure using exploratory analysis and <strong>Latent Dirichlet Allocation (LDA)</strong>.</li><li>Applied <strong>VADER</strong> and <strong>TextBlob</strong> to investigate sentiment polarity.</li><li>Explored emotion classification with methods including <strong>Naive Bayes, SVM, CNN, LSTM and a BERT-based approach</strong>, using labelled emotion data for model development and then analysing predictions on WIRED texts.</li></ul>
+<p>The full methodology, tables, figures and any code excerpts are documented in the <a href="02-msc-dissertation/Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf">dissertation PDF</a>.</p>
+<h3>Findings reported in the dissertation</h3>
+<ul><li>The lexicon-based results indicated that positive sentiment appeared more frequently than negative sentiment in the selected texts, while varying across periods and themes.</li><li>Topic modelling identified themes spanning technology, data applications, and social and cultural discussions.</li><li>In the reported emotion-classification analysis, the CNN output covered more of the seven reported emotion categories than the LSTM and Transformer implementations used in this project; it was consequently used for further category-level examination.</li></ul>
+<h3>Methodological limitations</h3>
+<ul><li><strong>Corpus selection:</strong> keyword choices influence what enters the analysis; the selected subset does not represent every possible discussion of libertarianism.</li><li><strong>Data provenance:</strong> archived records may have incomplete metadata or other limitations.</li><li><strong>Domain shift:</strong> results learned or evaluated on one labelled emotion dataset may not transfer reliably to WIRED articles.</li><li><strong>Interpretation:</strong> emotion-category definitions, sentiment lexicons and language context affect how automated outputs should be read.</li><li><strong>Ground truth:</strong> predicted emotion distributions alone cannot show which classifier is most accurate on target articles without suitable independent annotations.</li></ul>
+<p>These limitations are important to my subsequent interest in <strong>evaluation validity, robustness and responsible interpretation of NLP outputs</strong>.</p>
+<h3>My contribution</h3>
+<p>I performed the corpus preparation and screening, NLP analyses, modelling experiments, comparison and interpretation of outputs, and dissertation writing.</p>
+<h3>Repository availability</h3>
+<p>This repository contains the <strong>submitted PDF</strong>. Please refer to the PDF for detailed methods and references.</p>
+<p><a href="#overview">Back to portfolio homepage</a></p>
+  </section>
+  <section id="bsc">
+    <p class="section-intro">Research summary and dissertation access</p>
+    <h2>03 | BSc Dissertation — Statistical Evaluation of User Experience Quality</h2>
+<p class="detail"><strong>Full dissertation:</strong> <a href="03-bsc-dissertation/Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf">Read the original PDF</a> (Chinese version)</p>
+<p class="detail"><strong>Institution:</strong> Shenzhen University</p>
+<p class="detail"><strong>Programme:</strong> Mathematics and Applied Mathematics (Financial Mathematics)</p>
+<p class="detail"><strong>Date:</strong> 2021</p>
+<p><strong>Research type:</strong> Completed undergraduate dissertation</p>
+<h3>Research objective</h3>
+<p><em>Research on a user experience quality model based on statistical analysis</em> investigates how the quality of user experience on an online-course platform can be assessed through structured quantitative indicators and subjective questionnaire responses.</p>
+<p>The dissertation develops an evaluation approach combining an indicator hierarchy and empirical statistical analysis.</p>
+<h3>Study design and methodology</h3>
+<ul><li>Designed a user questionnaire with <strong>five-point ratings</strong> to gather respondents' evaluations of an online learning experience.</li><li>Collected <strong>155 questionnaire responses</strong>; <strong>114 valid responses</strong> were retained for the reported statistical analysis.</li><li>Considered dimensions related to users, the environment and the service; analysed quality indicators relating to <strong>system, information and interaction quality</strong>.</li><li>Applied questionnaire <strong>reliability analysis</strong>, correlations, <strong>exploratory factor analysis</strong> and related tests in <strong>SPSS 22.0</strong>.</li><li>Used <strong>MATLAB</strong> for calculations, fitting or comparison of model-based and subjective scores.</li><li>Used the <strong>Mean Opinion Score (MOS)</strong> concept in discussing subjective measurement, and considered <strong>Analytic Hierarchy Process (AHP)</strong> principles for structuring evaluation criteria.</li></ul>
+<p>See the <a href="03-bsc-dissertation/Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf">dissertation PDF</a> for the exact questionnaire, statistical tables, calculation procedures and reported model.</p>
+<h3>Findings reported in the dissertation</h3>
+<ul><li>The analysis organised <strong>18 service-quality indicators into seven factor categories</strong>, grouped within system, information and interaction quality.</li><li>The questionnaire's reported <strong>Cronbach's alpha was 0.840</strong>, supporting internal consistency in the evaluated responses.</li><li>The study combined factor-derived measures to produce composite service-quality assessments.</li><li>Patterns in the calculated model scores were reported as broadly consistent with corresponding subjective user ratings in this case study.</li></ul>
+<h3>Limitations and interpretation</h3>
+<ul><li>The valid sample was <strong>small (114)</strong> and predominantly consisted of university students.</li><li>Questionnaire ratings reflect subjective experiences and may be influenced by respondents' expectations and context.</li><li>The reliability and evaluation findings should be tested in broader and more diverse settings before generalisation.</li></ul>
+<p>This research developed my interest in <strong>measurement definitions, statistical reliability and the challenges of representing human experience through numerical indicators</strong>.</p>
+<h3>My contribution</h3>
+<p>I designed the questionnaire, collected responses, performed statistical reliability and factor analyses, examined the indicator framework, interpreted the results and prepared the dissertation.</p>
+<h3>Repository availability</h3>
+<p>This repository contains the <strong>completed dissertation PDF</strong> and this descriptive README.</p>
+<p><a href="#overview">Back to portfolio homepage</a></p>
+  </section>
+</main>
+<footer class="container">Mingdi Sun · Academic Research Portfolio</footer>
 </body>
 </html>
