@@ -15,7 +15,7 @@ This repository presents two completed degree dissertations in **natural languag
 
 - To understand the **research questions, methods, findings and limitations**, start with the individual project README.
 - To read the **original submitted academic work**, open the linked PDFs above.
-- The PDF for each dissertation is stored alongside its own README in a numbered project folder: **02 · MSc** and **03 · BSc**. The original submitted PDF contents are unchanged; these descriptive README files do not replace the dissertations.
+- The PDF for each dissertation is stored alongside its own README in a numbered project folder: **02 · MSc** and **03 · BSc**.
 
 ## Research experience represented
 
@@ -27,10 +27,4 @@ This repository presents two completed degree dissertations in **natural languag
 
 ## Scope and provenance
 
-These documents are **degree dissertations, not peer-reviewed journal publications**. This repository currently provides the two full-text PDFs and descriptive project documentation; **runnable code packages and separately downloadable datasets are not supplied**. Code excerpts or methodology details may appear within the dissertation PDFs.
-
-Third-party source texts, including archived WIRED/ProQuest material, are not redistributed separately. The README summaries describe the work retrospectively and should not be mistaken for additional experiments or independently validated claims.
-
-## Current research direction
-
-My subsequent interests include reliable and responsible NLP evaluation, statistical validation of systematic model failures, and how data, linguistic context and evaluation assumptions affect the interpretation of evidence. These are **ongoing interests**, not claims that the dissertations already established new social-bias evaluation methods.
+These documents are **degree dissertations**. Code excerpts and methodology details appear within the dissertation PDFs.

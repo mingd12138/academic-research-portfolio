@@ -1,10 +1,10 @@
 # 03 | BSc Dissertation — Statistical Evaluation of User Experience Quality
 
-**Full dissertation:** [Read the original PDF](Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf)  
+**Full dissertation:** [Read the original PDF](Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf) (Chinese version)  
 **Institution:** Shenzhen University  
 **Programme:** Mathematics and Applied Mathematics (Financial Mathematics)  
 **Date:** 2021  
-**Research type:** Completed undergraduate dissertation (not a peer-reviewed journal paper)
+**Research type:** Completed undergraduate dissertation
 
 ## Research objective
 
@@ -30,8 +30,6 @@ See the [dissertation PDF](Research%20on%20a%20user%20experience%20quality%20mod
 - The study combined factor-derived measures to produce composite service-quality assessments.
 - Patterns in the calculated model scores were reported as broadly consistent with corresponding subjective user ratings in this case study.
 
-These observations concern this specific dataset and evaluation setting; they should not be interpreted as universal validation of a general-purpose user-experience model.
-
 ## Limitations and interpretation
 
 - The valid sample was **small (114)** and predominantly consisted of university students.
@@ -46,6 +44,6 @@ I designed the questionnaire, collected responses, performed statistical reliabi
 
 ## Repository availability
 
-This repository contains the **completed dissertation PDF** and this descriptive README. It does not provide a standalone survey dataset, executable code package or externally validated model implementation.
+This repository contains the **completed dissertation PDF** and this descriptive README.
 
 [Back to portfolio homepage](../README.md)

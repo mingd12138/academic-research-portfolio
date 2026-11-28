@@ -4,7 +4,7 @@
 **Institution:** Durham University  
 **Degree:** Master of Data Science  
 **Submission:** September 2024  
-**Research type:** Completed MSc dissertation (not a peer-reviewed journal paper)
+**Research type:** Completed MSc dissertation
 
 ## Research focus
 
@@ -27,8 +27,7 @@ The full methodology, tables, figures and any code excerpts are documented in th
 
 - The lexicon-based results indicated that positive sentiment appeared more frequently than negative sentiment in the selected texts, while varying across periods and themes.
 - Topic modelling identified themes spanning technology, data applications, and social and cultural discussions.
-- In the reported emotion-classification analysis, the **CNN output covered more of the seven reported emotion categories** than the LSTM and Transformer implementations used in this project; it was consequently used for further category-level examination.
-- **Important distinction:** a more complete predicted category distribution does **not** establish that CNN achieved the best ground-truth accuracy on the WIRED target corpus.
+- In the reported emotion-classification analysis, the CNN output covered more of the seven reported emotion categories than the LSTM and Transformer implementations used in this project; it was consequently used for further category-level examination.
 
 ## Methodological limitations
 
@@ -38,7 +37,7 @@ The full methodology, tables, figures and any code excerpts are documented in th
 - **Interpretation:** emotion-category definitions, sentiment lexicons and language context affect how automated outputs should be read.
 - **Ground truth:** predicted emotion distributions alone cannot show which classifier is most accurate on target articles without suitable independent annotations.
 
-These limitations are important to my subsequent interest in **evaluation validity, robustness and responsible interpretation of NLP outputs**. They are reflections on this completed work, not evidence that a separate fairness or social-bias audit was performed.
+These limitations are important to my subsequent interest in **evaluation validity, robustness and responsible interpretation of NLP outputs**.
 
 ## My contribution
 
@@ -46,6 +45,6 @@ I performed the corpus preparation and screening, NLP analyses, modelling experi
 
 ## Repository availability
 
-This repository contains the **submitted PDF**, not a ready-to-run software package. The underlying ProQuest/WIRED source texts and separate training datasets are **not redistributed**. Please refer to the PDF for detailed methods and references.
+This repository contains the **submitted PDF**. Please refer to the PDF for detailed methods and references.
 
 [Back to portfolio homepage](../README.md)
