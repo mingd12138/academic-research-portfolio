@@ -1,6 +1,6 @@
-# MSc Dissertation — Linguistic Style, Sentiment and NLP in WIRED
+# 02 | MSc Dissertation — Linguistic Style, Sentiment and NLP in WIRED
 
-**Full dissertation:** [Read the original PDF](../Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf)  
+**Full dissertation:** [Read the original PDF](Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf)  
 **Institution:** Durham University  
 **Degree:** Master of Data Science  
 **Submission:** September 2024  
@@ -21,7 +21,7 @@ The project combines exploratory linguistic analysis, topic modelling, lexicon-b
 - Applied **VADER** and **TextBlob** to investigate sentiment polarity.
 - Explored emotion classification with methods including **Naive Bayes, SVM, CNN, LSTM and a BERT-based approach**, using labelled emotion data for model development and then analysing predictions on WIRED texts.
 
-The full methodology, tables, figures and any code excerpts are documented in the [dissertation PDF](../Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf).
+The full methodology, tables, figures and any code excerpts are documented in the [dissertation PDF](Linguistic%20Style%20and%20Sentiment%20Analysis%20of%20Libertarianism%20in%20Cyberspace%20at%20WIRED%20Magazine%20Based%20on%20Natural%20Language%20Processing.pdf).
 
 ## Findings reported in the dissertation
 

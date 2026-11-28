@@ -1,19 +1,21 @@
-# Academic Research Portfolio
+# 01 | Academic Research Portfolio
 
 This repository presents two completed degree dissertations in **natural language processing** and **applied statistical evaluation**. They reflect my experience with research design, data preparation, quantitative analysis, model comparison, and critically interpreting results and limitations.
 
 ## Research projects
 
+**Navigation:** 01 · Repository overview (this page) → 02 · MSc dissertation → 03 · BSc dissertation.
+
 | Project | Institution | Research focus | Dissertation | Research overview |
 | --- | --- | --- | --- | --- |
-| **MSc dissertation (2024)**: *Linguistic Style and Sentiment Analysis of Libertarianism in Cyberspace at WIRED Magazine Based on Natural Language Processing* | Durham University | NLP, sentiment and emotion analysis, topic modelling, text classification | [Full PDF](<Linguistic Style and Sentiment Analysis of Libertarianism in Cyberspace at WIRED Magazine Based on Natural Language Processing.pdf>) | [MSc README](msc-dissertation/README.md) |
-| **BSc dissertation (2021)**: *Research on a user experience quality model based on statistical analysis* | Shenzhen University | User-experience quality measurement, questionnaire-based evaluation, factor analysis | [Full PDF](<Research on a user experience quality model based on statistical analysis.pdf>) | [BSc README](bsc-dissertation/README.md) |
+| **MSc dissertation (2024)**: *Linguistic Style and Sentiment Analysis of Libertarianism in Cyberspace at WIRED Magazine Based on Natural Language Processing* | Durham University | NLP, sentiment and emotion analysis, topic modelling, text classification | [Full PDF](<02-msc-dissertation/Linguistic Style and Sentiment Analysis of Libertarianism in Cyberspace at WIRED Magazine Based on Natural Language Processing.pdf>) | [MSc README](02-msc-dissertation/README.md) |
+| **BSc dissertation (2021)**: *Research on a user experience quality model based on statistical analysis* | Shenzhen University | User-experience quality measurement, questionnaire-based evaluation, factor analysis | [Full PDF](<03-bsc-dissertation/Research on a user experience quality model based on statistical analysis.pdf>) | [BSc README](03-bsc-dissertation/README.md) |
 
 ## How to navigate this repository
 
 - To understand the **research questions, methods, findings and limitations**, start with the individual project README.
 - To read the **original submitted academic work**, open the linked PDFs above.
-- The original PDFs remain at the repository root. The two project README files are descriptive documentation; they do not replace or modify the dissertations.
+- The PDF for each dissertation is stored alongside its own README in a numbered project folder: **02 · MSc** and **03 · BSc**. The original submitted PDF contents are unchanged; these descriptive README files do not replace the dissertations.
 
 ## Research experience represented
 

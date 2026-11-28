@@ -1,6 +1,6 @@
-# BSc Dissertation — Statistical Evaluation of User Experience Quality
+# 03 | BSc Dissertation — Statistical Evaluation of User Experience Quality
 
-**Full dissertation:** [Read the original PDF](../Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf)  
+**Full dissertation:** [Read the original PDF](Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf)  
 **Institution:** Shenzhen University  
 **Programme:** Mathematics and Applied Mathematics (Financial Mathematics)  
 **Date:** 2021  
@@ -21,7 +21,7 @@ The dissertation develops an evaluation approach combining an indicator hierarch
 - Used **MATLAB** for calculations, fitting or comparison of model-based and subjective scores.
 - Used the **Mean Opinion Score (MOS)** concept in discussing subjective measurement, and considered **Analytic Hierarchy Process (AHP)** principles for structuring evaluation criteria.
 
-See the [dissertation PDF](../Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf) for the exact questionnaire, statistical tables, calculation procedures and reported model.
+See the [dissertation PDF](Research%20on%20a%20user%20experience%20quality%20model%20based%20on%20statistical%20analysis.pdf) for the exact questionnaire, statistical tables, calculation procedures and reported model.
 
 ## Findings reported in the dissertation
 
